@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="modulo3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo I | MODULO 3</title>
+    <link rel="shortcut icon" href="imagenes/umg.jpg">
+</head>
+<body>
+    <header class="cabeza">
+    <div class="titulo">
+    <h1> APLICACIONES DE LA DERIVADA</h1>
+    </div>
+    <div class="sesgo"></div>
+    </header>
+   <section class="cambio">
+       <article class="a1">
+           <h2>RAZONES DE CAMBIO</h2><br>
+           <p>
+            El concepto de razón de cambio se refiere a la medida en la cual una variable se modifica con relación a otra. Se trata de la magnitud que compara dos variables a partir de sus unidades de cambio. En caso de que las variables no estén relacionadas, tendrán una razón de cambio igual a cero.
+           </p><br>
+           <h3>ESTRATEGIA</h3><br>
+           <p>
+            1) Lea el problema con cuidado. <br>
+            2) Si es posible, dibuje un diagrama. <br>
+            3) Introduzca la notación. Asigne símbolos a todas las cantidades que sean funciones del tiempo. <br>
+            4) Exprese la función dada y la razón de cambio requerida en términos de derivadas. <br>
+            5) Escriba una ecuación que relacione las diversas cantidades del problema. Si es necesario, aplique los aspectos geométricos para eliminar una de las variables. <br>
+            6) Use la regla de la cadena para derivar los miembros con respecto al tiempo. <br>
+            7) Sustituya la información en la ecuación resultante y resuélvala. <br>
+           </p>
+           <h4>EJEMPLO:</h4> <br>
+           <p> 
+            Se bombea aire hacia adentro de un globo esférico, de modo que su volumen aumenta a razón de 100cm^3/s. ¿Con qué rapidez crece el radio del globo cuando el diámetro es de 50 cm?
+           </p> <br>
+           <p>Datos proporcionados:
+               <br> r= 25cm
+               <br>dV/dt= 100cm^3/s
+               <br> dr/dt= ?
+           </p>
+           <img width="400"  height="425"  src="imagenes/cambio.png" alt="">
+           <img  width="400" height="425" src="imagenes/cambio1.png" alt="">
+
+           
+
+       </article>
+   </section>
+   <section class="lhopital">
+       <article class="a1">
+           <h2>LA REGLA DE L´HOPITAL</h2><br>
+           <p>
+            En el cálculo diferencial, la regla de l'Hôpital o regla de l'Hôpital-Bernoulli es una regla que usa derivadas para ayudar a evaluar límites de funciones que estén en forma indeterminada.
+           </p> <br>
+           <p>
+            Supongase que f y g son diferenciables y que 𝑔′(𝑥) ≠ 0 cerca de a (excepto quizás en a). 
+            Suponga que: 
+            
+           </p>
+           <img src="imagenes/lhopital.png" alt=""><br>
+           <p>
+            En otras palabras, tenemos una forma indeterminada del tipo 0/0 o del  ∞/∞, entonces:   
+           </p><br>
+           <img src="imagenes/lhopital1.png" alt=""><br>
+           <h4>EJEMPLO:</h4><br>
+           <img src="imagenes/lhopital2.png" alt=""><br>
+           <h3> PRODUCTOS INDETERMINADOS</h3><br>
+           <p>
+            Si el lím f(x) = 0 y lím g(x) = ∞, entonces no resulta claro cuál es el valor del límite, y se tiene una lucha entre f y g. O puede haber un término medio donde la respuesta es un número finito diferente de cero. Esta clase de límite se llama forma indeterminada del tipo 0 y podemos manejarla escribiendo el producto de f*g como un cociente. 
+           </p>
+           <h4>EJEMPLO:</h4><br>
+           <img src="imagenes/lhopital3.png" alt="">
+       </article>
+   </section>
+   <section class="optimizacion">
+       <article class="a1" > 
+           <h2> PROBLEMAS DE OPTIMIZACION</h2><br>
+           <p>
+            Algunas de las aplicaciones más importantes del cálculo diferencial son los problemas de optimización, en los cuales se nos pide la manera óptima de hacer algo. Estos problemas se pueden reducir a encontrar los valores máximos o mínimos de una función
+           </p><br>
+           <p>
+            Una función f tiene un máximo absoluto (o máximo global) en c si 𝒇 𝒄 ≥ (𝒙) para todo x en D, donde D es el dominio de f. El número f(c) se llama valor máximo de f en D. De manera análoga, f tiene un mínimo absoluto en c si (𝒄) ≤ 𝒇(𝒙) para todo x en D; el número f(c) se denomina valor mínimo de f en D. Los valores máximos y mínimos de f se conocen como valores extremos de f.    
+           </p><br>
+           <h3>PASOS PARA LA SOLUCIÓN DE PROBLEMAS DE OPTIMIZACIÓN</h3><br>
+           <p>
+            1) Comprenda el problema. <br>
+            2) Dibuje un diagrama. <br>
+            3) Introduzca la notación.  <br>
+           4) Exprese Q en términos de algunos de los otros símbolos del paso anterior. <br>
+           5) Si Q se ha expresado como función de más de una variable, utilice información dada para hallar relaciones entre estas variables. <br>
+           6) Aplique los métodos conocidos. <br>
+           </p>
+           <h4>EJEMPLO</h4><br>
+           <p>
+            Un granjero tiene 2,400 metros de cerca y desea cercar un campo rectangular que limita con un río recto. No necesita cerca a lo largo del río. ¿Cuáles son las dimensiones del campo que tiene el área mas grande?
+           </p><br>
+           <img src="imagenes/opti.png" alt=""><br>
+           <p>
+            RESOLUCIÓN <br>
+            y = 2400 − 2x<br>
+             A =X ∗( 2400 – 2X) <br>
+             A = 2400 − 2x <br>
+            A = x ∗ 2400 − 2x <br>
+            A = 2400x − 2x 2 <br>
+            A ′ = 2400 − 4x<br>
+             Puntos críticos de x van de 0 ≤ 𝑥 ≤ 1200 <br> 
+            0 = 2400 − 4x <br>
+            x =  2400/4 = 600 <br>
+            y= 2400 − 2x <br>
+            y = 2400 − 2 600  <br>
+            y = 1200 <br>
+            Dimensiones del campo: x = 600 y = 1200
+           </p>
+       </article>
+   </section>
+   <section class="anti">
+       <article class="a1">
+        <h2>ANTIDERIVADA</h2> <br>
+        <p>
+            Si F es una antiderivada de f sobre un intervalo I, entonces la antiderivada más general de f sobre I es: 𝐹 𝑥 + 𝐶 donde C es una constante arbitraria.
+        </p><br>
+        <H3>FORMULA DE LA ANTIDERIVADA</H3><br>
+        <img src="imagenes/anti.png" alt=""><br>
+        <h3>TABLA DE ANTIDERIVADAS</h3><br>
+        <img  width="850"  height="425" src="imagenes/anti1.png" alt=""><br>
+        <h4>EJEMPLO</h4><br>
+        <img src="imagenes/anti2.png" alt="">
+       </article>
+   </section>
+   <section class="integrales">
+       <article class="a1">
+           <h2>INTEGRALES</h2><br>
+           <p>
+            La integración es un concepto fundamental del cálculo y del análisis matemático. Básicamente, una integral es una generalización de la suma de infinitos sumandos, infinitamente pequeños. El cálculo integral, es una rama de las matemáticas en el proceso de integración o antiderivación.
+           </p><br>
+           <p>
+            El área A de la región S que se encuentra debajo de la gráfica de la función continua f es el límite de la suma de las áreas de los rectángulos de aproximación:
+           </p><br>
+           <img src="imagenes/integral.png" alt=""><br>
+           <p>
+            A menudo usamos la notación sigma para escribir de manera más compacta la sumas con muchos términos.
+           </p><br>
+           <img src="imagenes/integral1.png" alt=""><br>
+           <h3> PROPIEDADES DE LA INTEGRAL</h3><br>
+           <img src="imagenes/integral2.png" alt=""> <br>
+           <img src="imagenes/integral3.png" alt=""> <br>
+           <h4>EJEMPLO:</h4><br>
+           <img src="imagenes/integral4.png" alt="">
+       </article>
+   </section>
+</body>
+<aside>
+    <p>Facultad de Ingenieria</p> 
+    <p>Sede Sololá</p>
+</aside>
+<footer>Antony Alessandro Ralón Valenzuela  </footer>
+<footer>Jose Mario Lucas Contreras </footer>
+</html>
